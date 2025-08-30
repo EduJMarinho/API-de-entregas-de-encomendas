@@ -44,10 +44,7 @@ npm test
 Os testes estão configurados com Jest e Supertest para validar rotas e autenticação.
 
 📚 Endpoints principais
-|  |  |  | 
-|  | /users |  | 
-|  | /sessions |  | 
-|  | /profile |  | 
+ | /users  | /sessions  | /profile 
 
 ------------------------------------
 
