@@ -70,13 +70,13 @@ rocketlog/
 ├── docker-compose.yml
 └── .env-exemple
 
-
+------------------------------------
 
 📄 Licença
 
 Este projeto está sob a licença MIT.
 
-
+------------------------------------
 
 🧠 Analisar 📚 Aprender ❌ Errar  
    🔁 Refatorar  🛠️ Construir  
