@@ -11,7 +11,7 @@ Rocketlog é uma API RESTful desenvolvida com Node.js e TypeScript, focada em au
 - PostgreSQL (via Docker)
 - Jest + Supertest para testes
 - JWT para autenticação
-
+------------------------------------
 ⚙️ Instalação e Configuração
 
 # Clone o repositório
@@ -26,7 +26,7 @@ Crie um arquivo .env com base no .env-exemple:
 DATABASE_URL="postgresql://usuario:senha@localhost:5432/rocketlog"
 JWT_SECRET="sua_chave_secreta"
 
-
+------------------------------------
 
 🐳 Usando Docker
 
@@ -34,6 +34,7 @@ docker-compose up -d
 
 
 Isso irá subir o banco PostgreSQL e conectar com o Prisma.
+------------------------------------
 
 🧪 Executando os Testes
 
@@ -48,14 +49,14 @@ Os testes estão configurados com Jest e Supertest para validar rotas e autentic
 |  | /sessions |  | 
 |  | /profile |  | 
 
-
+------------------------------------
 
 🔐 Autenticação
 
 Após o login, envie o token JWT no header:
 Authorization: Bearer <token>
 
-
+------------------------------------
 
 📁 Estrutura de Pastas
 
