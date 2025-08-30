@@ -1,4 +1,4 @@
--* 🚀 Rocketlog - 
+* 🚀 Rocketlog - 
 - Projeto de aprendizado da plataforma Rocketseat.
 
 - Aplicação de registro de logs com autenticação JWT e integração com MongoDB.
@@ -40,7 +40,7 @@ Authorization: Bearer <seu_token>
 
 * 📄 Licença
 
-Este projeto está sob a licença MIT.
+- Este projeto está sob a licença MIT.
 
 ------------------------------------
 **
