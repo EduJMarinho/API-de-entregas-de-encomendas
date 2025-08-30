@@ -1,72 +1,62 @@
-
 🚀 Rocketlog
-
-Rocketlog é uma API RESTful desenvolvida com Node.js e TypeScript, focada em autenticação de usuários e testes automatizados. O projeto utiliza Prisma para gerenciamento de banco de dados e Supertest + Jest para testes de integração.
-
+Aplicação de registro de logs com autenticação JWT e integração com MongoDB.
 📦 Tecnologias
+- Node.js
+- Express
+- MongoDB + Mongoose
+- JWT
+- Docker
+📁 Estrutura de Pastas
+rocketlog/
+├── src/
+│   ├── config/
+│   ├── controllers/
+│   ├── middlewares/
+│   ├── models/
+│   ├── routes/
+│   └── utils/
+├── .env.example
+├── Dockerfile
+├── docker-compose.yml
+└── README.md
 
-- Node.js + Express
-- TypeScript
-- Prisma ORM
-- PostgreSQL (via Docker)
-- Jest + Supertest para testes
-- JWT para autenticação
-------------------------------------
-⚙️ Instalação e Configuração
 
-# Clone o repositório
+⚙️ Instalação
 git clone https://github.com/EduJMarinho/rocketlog.git
 cd rocketlog
-
-# Instale as dependências
 npm install
 
 
-Crie um arquivo .env com base no .env-exemple:
-DATABASE_URL="postgresql://usuario:senha@localhost:5432/rocketlog"
-JWT_SECRET="sua_chave_secreta"
-
-------------------------------------
-
-🐳 Usando Docker
-
-docker-compose up -d
+🛠️ Configuração
+Crie um arquivo .env com base no .env.example:
+PORT=3000
+MONGO_URI=mongodb://localhost:27017/rocketlog
+JWT_SECRET=sua_chave_secreta
 
 
-Isso irá subir o banco PostgreSQL e conectar com o Prisma.
-------------------------------------
-
-🧪 Executando os Testes
-
-npm test
+▶️ Executando
+npm start
 
 
-Os testes estão configurados com Jest e Supertest para validar rotas e autenticação.
+Ou com Docker:
+docker-compose up
 
-📚 Endpoints principais
- | /users  | /sessions  | /profile 
-
-------------------------------------
 
 🔐 Autenticação
+As rotas protegidas exigem o header:
+Authorization: Bearer <seu_token>
 
-Após o login, envie o token JWT no header:
-Authorization: Bearer <token>
 
-------------------------------------
+📮 Endpoints principais
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
+|  |  |  | 
 
-📁 Estrutura de Pastas
 
-rocketlog/
-├── prisma/           # Migrations e schema do banco
-├── src/
-│   ├── controllers/  # Lógica das rotas
-│   ├── routes/       # Definição das rotas
-│   ├── services/     # Regras de negócio
-│   └── middlewares/  # Autenticação, validações
-├── jest.config.ts
-├── docker-compose.yml
-└── .env-exemple
+
+
+
 
 ------------------------------------
 
