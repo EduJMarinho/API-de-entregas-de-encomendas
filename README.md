@@ -6,20 +6,6 @@ Aplicação de registro de logs com autenticação JWT e integração com MongoD
 - MongoDB + Mongoose
 - JWT
 - Docker
-📁 Estrutura de Pastas
-rocketlog/
-├── src/
-│   ├── config/
-│   ├── controllers/
-│   ├── middlewares/
-│   ├── models/
-│   ├── routes/
-│   └── utils/
-├── .env.example
-├── Dockerfile
-├── docker-compose.yml
-└── README.md
-
 
 ⚙️ Instalação
 git clone https://github.com/EduJMarinho/rocketlog.git
@@ -45,17 +31,6 @@ docker-compose up
 🔐 Autenticação
 As rotas protegidas exigem o header:
 Authorization: Bearer <seu_token>
-
-
-📮 Endpoints principais
-|  |  |  | 
-|  |  |  | 
-|  |  |  | 
-|  |  |  | 
-
-
-
-
 
 
 ------------------------------------
