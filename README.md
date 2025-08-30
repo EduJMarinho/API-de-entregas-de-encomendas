@@ -1,4 +1,4 @@
-* -🚀 Rocketlog - 
+-* 🚀 Rocketlog - 
 - Projeto de aprendizado da plataforma Rocketseat.
 
 - Aplicação de registro de logs com autenticação JWT e integração com MongoDB.
@@ -17,7 +17,7 @@ npm install
 
 -------------------------------
 * 🛠️ Configuração
-Crie um arquivo .env com base no .env.example:
+- Crie um arquivo .env com base no .env.example:
 PORT=3000
 MONGO_URI=mongodb://localhost:27017/rocketlog
 JWT_SECRET=sua_chave_secreta
@@ -27,7 +27,7 @@ JWT_SECRET=sua_chave_secreta
 npm start
 
 
-Ou com Docker:
+- Ou com Docker:
 docker-compose up
 -------------------------------
 
