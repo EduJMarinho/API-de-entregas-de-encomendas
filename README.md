@@ -1,7 +1,7 @@
-* 🚀 Rocketlog - 
+* -🚀 Rocketlog - 
 - Projeto de aprendizado da plataforma Rocketseat.
 
--Aplicação de registro de logs com autenticação JWT e integração com MongoDB.
+- Aplicação de registro de logs com autenticação JWT e integração com MongoDB.
 -------------------------------
 * 📦 Tecnologias
 - Node.js
